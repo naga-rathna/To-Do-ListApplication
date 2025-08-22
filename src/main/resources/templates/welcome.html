@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Welcome</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+    <h2>Welcome to To-Do Task App!</h2>
+
+    <form th:action="@{/showNewTaskForm}" method="get">
+        <button type="submit">Create Task</button>
+    </form>
+
+    <form th:action="@{/tasks}" method="get">
+        <button type="submit">View Tasks</button>
+    </form>
+
+    <form th:action="@{/logout}" method="get">
+        <button type="submit">Logout</button>
+    </form>
+</body>
+</html>
