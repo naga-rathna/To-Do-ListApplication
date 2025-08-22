@@ -10,7 +10,7 @@ The application provides **REST APIs** for performing CRUD operations on both **
 - **User Management** – Manage users with full CRUD operations.  
 - **RESTful APIs** – Well-structured endpoints for interacting with tasks and users.  
 - **Layered Architecture** – Clean separation of concerns using Entity, Repository, Service, and Controller layers.  
-- **Database Integration** – Uses Spring Data JPA with support for H2 (in-memory) and MySQL databases.  
+- **Database Integration** – Uses Spring Data JPA and Postgresql databases.  
 - **Scalable & Extensible** – Can be extended with authentication, frontend integration, or additional features.  
 - **Maven Build Tool** – Easy project setup and dependency management.  
 
@@ -18,7 +18,7 @@ The application provides **REST APIs** for performing CRUD operations on both **
 - Java 17+  
 - Spring Boot  
 - Spring Data JPA  
-- H2 / MySQL Database  
+- Postgresql Database  
 - Maven  
 
 # Project Structure
